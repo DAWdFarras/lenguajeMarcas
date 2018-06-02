@@ -14,7 +14,7 @@ $(function () {
         cargarMas();
     });
     $('#autoRefresh').click(function () {
-        autoRef=true;
+        autoRef=!autoRef;
     });
     $(window).scroll(function () {
         cargarScroll();
