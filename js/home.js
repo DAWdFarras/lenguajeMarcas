@@ -1,45 +1,43 @@
-/* Variables*/
 var json0 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/5d42937a/json/new1.json';
 var json1 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/5d42937a/json/new2.json';
 var json2 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/5d42937a/json/new3.json';
 var json3 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/5d42937a/json/new4.json';
 var json4 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/5d42937a/json/new5.json';
 var jsonList = [json0, json1, json2, json3, json4];
-var contador = 0;
-var contadorTotal = 1;
+var total = 0;
 var autoRef = false;
 
 $(function () {
     $('#loadButton').click(function () {
-        cargarMas();
+        load();
     });
     $('#autoRefresh').click(function () {
             autoRef=true;
     });
     $(window).scroll(function () {
-        cargarScroll();
+        chargeOnScroll();
     });
 });
 
-function cargarMas() {
-    if (contador < jsonList.length) {
+function load() {
+    if (total < jsonList.length) {
         $.getJSON(jsonList[contador], function (jsonObject) {
-            pintar(jsonObject);
+            charge(jsonObject);
         });
-        contador++;
+        total++;
     };
 };
 
-function pintar(json) {
-   datos="";
+function charge(json) {
+   data="";
       $.each(json.news, function (i, news) {
-         datos += "<div class='row secondaryNew'><div class='col-sm-5'><img class='img-responsive img-rounded' src='"+news.img+"' /></div><div class='col-sm-7'><div class='row'><h1>"+news.title+"</h1></div><div class='row'><div class='col-sm-12 bg-light' id='newsText'>"+news.description+"</div></div><div class='row'><div class='col-sm-12 bg-light' id='links'>"+news.date+"</div></div></div></div>";
+         data += "<div class='row secondaryNew'><div class='col-sm-5'><img class='img-responsive img-rounded' src='"+news.img+"' /></div><div class='col-sm-7'><div class='row'><h1>"+news.title+"</h1></div><div class='row'><div class='col-sm-12 bg-light' id='newsText'>"+news.description+"</div></div><div class='row'><div class='col-sm-12 bg-light' id='links'>"+news.date+"</div></div></div></div>";
       });                                                                                                                                                                   
-   $('#someMoreNews').append(datos);
+   $('#someMoreNews').append(data);
 };
 
-function cargarScroll() {
+function chargeOnScroll() {
     if (($(window).scrollTop() + $(window).height() > $(document).height() - 100) && autoRef ) {
-        cargarMas();
+        load();
     };
 };
