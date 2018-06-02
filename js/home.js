@@ -36,7 +36,7 @@ function pintar(json) {
          datos += "<div class='row secondaryNew'><div class='col-sm-5'><img class='img-responsive img-rounded' src='"+news.img+"' /></div><div class='col-sm-7'><div class='row'><h1>"+news.title+"</h1></div><div class='row'><div class='col-sm-12 bg-light' id='newsText'>"+news.description+"</div></div><div class='row'><div class='col-sm-12 bg-light' id='links'>"+news.date+"</div></div></div></div>";
       });                                                                                                                                                                   
    $('#someMoreNews').append(datos);
-}
+};
 
 function cargarScroll() {
     if (($(window).scrollTop() + $(window).height() > $(document).height() - 100) && autoRef ) {
