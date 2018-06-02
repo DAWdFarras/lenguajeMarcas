@@ -57,7 +57,7 @@ El caso más evidente es el de las imágenes que al todas tener el mismo tamaño
 Además en el proceso se ha utlizado al máximo bootstrap como librería a la hora de realizar la codificación de html, aplicando las clases bootstrap tanto para el posicionamiento de elementos como para la responsividad de los mismos.
 
 ## Resultados
-El equipo de desarrollo está muy orgulloso del producto entregado, no solo por la calidad del mismo sino también por el poco tiempo empleado.
+Se han preparado un total de 15 noticias listas para ser servidas al cliente cuando lo desee en vez de las tres que se planificaron originalmente para el MVP. Además el equipo de desarrollo está muy orgulloso del producto entregado, no solo por la calidad del mismo sino también por el poco tiempo empleado.
 Además con algunos cambios respecto a los diseños originales que se han implementado con esmero para poder entregar este producto.
 
 Esperamos que como cliente esté satisfecho con el producto y nos tenga en cuenta.
