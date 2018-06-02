@@ -44,8 +44,8 @@ function cargarMas() {
 if (contadorTotal <= 10) {
     //esta linea no tiene pinta de ser relevante
     //$('#load').removeClass('d-none').addClass('d-block');
-    if (contador < listaJson.length) {
-        $.getJSON(listaJson[contador], function (jsonObject) {
+    if (contador < jsonList.length) {
+        $.getJSON(jsonList[contador], function (jsonObject) {
             
             pintar(jsonObject);
             /*
