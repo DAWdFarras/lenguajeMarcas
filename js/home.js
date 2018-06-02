@@ -4,7 +4,7 @@ var json2 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/5d42937a/json/new3
 var json3 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/5d42937a/json/new4.json';
 var json4 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/5d42937a/json/new5.json';
 var jsonList = [json0, json1, json2, json3, json4];
-var total = 0;
+var total = 1;
 var autoRef = false;
 
 $(function () {
