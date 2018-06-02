@@ -1,9 +1,9 @@
 /* Variables*/
-var json1 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/d39490ee/json/new1.json';
-var json2 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/d39490ee/json/new2.json';
-var json3 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/d39490ee/json/new3.json';
-var json4 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/d39490ee/json/new4.json';
-var json5 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/d39490ee/json/new5.json';
+var json1 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/5d42937a/json/new1.json';
+var json2 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/5d42937a/json/new2.json';
+var json3 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/5d42937a/json/new3.json';
+var json4 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/5d42937a/json/new4.json';
+var json5 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/5d42937a/json/new5.json';
 var jsonList = [json1, json2, json3, json4, json5];
 var contador = 0;
 var contadorTotal = 0;
