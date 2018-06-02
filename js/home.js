@@ -13,27 +13,12 @@ var autoRef = false;
 $(function () {
 
 $('#loadButton').click(function () {
-    cargarMas();
+   cargarMas();
 });
-$('#autoRefresh').click(autoRef=true)
+$('#autoRefresh').click(autoRef=true);
 $(window).scroll(function () {
     cargarScroll();
 });
-/*Cargar imagenes despues de cargar página*/
-/*
-$('.lazy').Lazy({
-    scrollDirection: 'vertical',
-    effect: 'fadeIn',
-    effectTime: 1000,
-    visibleOnly: true,
-    onError: function(element) {
-        console.log('error loading ' + element.data('src'));
-    }
-});*/
-
-
-
-
 });
 
 /**
@@ -42,25 +27,9 @@ $('.lazy').Lazy({
 function cargarMas() {
 
 if (contadorTotal <= 10) {
-    //esta linea no tiene pinta de ser relevante
-    //$('#load').removeClass('d-none').addClass('d-block');
     if (contador < jsonList.length) {
         $.getJSON(jsonList[contador], function (jsonObject) {
-            
             pintar(jsonObject);
-            /*
-            $('.lazy').Lazy({
-                
-                scrollDirection: 'vertical',
-                effect: 'fadeIn',
-                effectTime: 1000,
-                visibleOnly: true,
-                onError: function(element) {
-                    console.log('error loading ' + element.data('src'));
-                }
-            })*/;
-            //esta linea no tiene pinta de ser relevante
-            //$('#load').removeClass('d-block').addClass('d-none');
         });
 
         
@@ -77,18 +46,11 @@ if (contadorTotal <= 10) {
 
 /* Funcion para cargar el json con los contenedores dentro de una variable y luego introducirla en la página web*/
 function pintar(json) {
-/*inicio row  */
-var datos = "<div id='someMoreNews' class='container-fluid'>";
-
-
-
+datos="";
 $.each(json.news, function (i, news) {
-
     datos += "<div class='row secondaryNew'><div class='col-sm-5'><img class='img-responsive img-rounded' src='"+news.img+"' /></div><div class='col-sm-7'><div class='row'><h1>"+news.title+"</h1></div><div class='row'><div class='col-sm-12 bg-light' id='newsText'>"+news.description+"</div></div><div class='row'><div class='col-sm-12 bg-light' id='links'>"+news.date+"</div></div></div></div>";
 });                                                                                                                                                                   
-/*finalizacion row*/
-datos += "</div>";
-$('#main').append(datos);
+$('#someMoreNews').append(datos);
 }
 
 /**
