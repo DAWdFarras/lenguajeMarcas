@@ -1,12 +1,12 @@
 /* Variables*/
-var json1 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/5d42937a/json/new1.json';
-var json2 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/5d42937a/json/new2.json';
-var json3 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/5d42937a/json/new3.json';
-var json4 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/5d42937a/json/new4.json';
-var json5 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/5d42937a/json/new5.json';
-var jsonList = [json1, json2, json3, json4, json5];
+var json0 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/5d42937a/json/new1.json';
+var json1 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/5d42937a/json/new2.json';
+var json2 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/5d42937a/json/new3.json';
+var json3 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/5d42937a/json/new4.json';
+var json4 = 'https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/5d42937a/json/new5.json';
+var jsonList = [json0, json1, json2, json3, json4];
 var contador = 0;
-var contadorTotal = 0;
+var contadorTotal = 1;
 var autoRef = false;
 
 $(function () {
@@ -14,7 +14,7 @@ $(function () {
         cargarMas();
     });
     $('#autoRefresh').click(function () {
-        autoRef=true
+        autoRef=true;
     });
     $(window).scroll(function () {
         cargarScroll();
@@ -22,20 +22,12 @@ $(function () {
 });
 
 function cargarMas() {
-   if (contadorTotal <= 10) {
-      if (contador < jsonList.length) {
-         $.getJSON(jsonList[contador], function (jsonObject) {
+    if (contador < jsonList.length) {
+        $.getJSON(jsonList[contador], function (jsonObject) {
             pintar(jsonObject);
-         });
-         contador++;
-         contadorTotal++
-         if (contador == 3) {
-            contador = 0
-         };
-      };
-   }else{
-      alert("There isn´t more news.")
-   };
+        });
+        contador++;
+    };
 };
 
 function pintar(json) {
