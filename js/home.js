@@ -21,7 +21,7 @@ $(function () {
 
 function load() {
     if (total < jsonList.length) {
-        $.getJSON(jsonList[contador], function (jsonObject) {
+        $.getJSON(jsonList[total], function (jsonObject) {
             charge(jsonObject);
         });
         total++;
