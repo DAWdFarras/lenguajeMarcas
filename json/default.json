@@ -1,0 +1,131 @@
+{
+    "banners": [
+        {
+            "img": "https://goo.gl/nyciQJ",
+            "name": "ScienceClub"
+        },
+        {
+            "img": "https://goo.gl/7xhvDS",
+            "name": "DataScience"    
+        },
+        {
+            "img": "https://goo.gl/9BJe1n",
+            "name": "RPrograming"
+        },
+        {
+            "img": "https://goo.gl/6AY3Qm",
+            "name": "DNA"
+        },
+        {
+            "img": "https://goo.gl/FiJaQA",
+            "name": "DiscoverGIS"
+        }
+    ],
+    "news": [
+        {
+            "img": "https://goo.gl/MUbSBx",
+            "title": "EU plan over new hadron collider (LHC)",
+            "date": "01 January 1999",
+            "description": "EU meeting over last year about the large hadron collider are showing benefits over arrangements. Some decisions are still to be made (where is te be builded, or how much will it cost to every country) but the decision is firm over its creation.",
+            "content": "EU meeting over last year about the large hadron collider are showing benefits over arrangements. Some decisions are still to be made (where is te be builded, or how much will it cost to every country) but the decision is firm over its creation. Although what has previously been said there some parties on resistance about the final budget distribution, one of those concerned countries is England which has been discarded to house the project for geographical reasons."
+        }, 
+        {
+            "img": "https://goo.gl/GujQGm",
+            "title": "LHC summit: Size and budget over LHC",
+            "date": "17 May 2001",
+            "description": "After several meetings, and temporal deadpoints, LHC summit last November created an arrangement between main EU members over LHC astronomous budget.",
+            "content": "As everyone already knows there have been several political obstacles over LHC budget arrangements. But all those deadpoint seems to be just stories about the past since biggest EU members have forced weak new members to pleasure their will aprobing the budget."
+        },
+        {
+            "img": "https://goo.gl/GLL8iP",
+            "title": "Switzerland will house LHC's main installations",
+            "date": "07 October 2002",
+            "description": "Finally LHC's housing country has been revealed as Switzerland, which is unexpected at least.",
+            "content": "Moreover LHC house will be at Geneve, surpisingly since they're status has always been complicated compared to other options like Italy or Germany."
+        },
+        {
+            "img": "https://goo.gl/P1KZjV",
+            "title": "First voices over LHC dangers",
+            "date": "22 August 2005",
+            "description": "Some voices of sanity have seen over the noise to point on what is to be done in LHC.",
+            "content": "For more than a year we have heard about the political issues regarding LHC arrangements. All those remarked obstacles related on economy and politics that were used, as claimed by some voices, to cover LHC's real danger which is their experiments and the chain reaction that might not be controllable."
+        },
+        {
+            "img": "https://goo.gl/uZo67r",
+            "title": "Gran Sasso and LHC: Neutrinos faster than light!",
+            "date": "10 September 2008",
+            "description": "Weeks after safety concerns new announcement: Neutrinos faster than light, explain experiment, image of neutrinos detector",
+            "content": "For more than a year we have heard about the political issues regarding LHC arrangements. All those remarked obstacles related on economy and politics that were used, as claimed by some voices, to cover LHC's real danger which is their experiments and the chain reaction that might not be controllable. But today we are here cause a new announcement has been done by Pappos Papapopopopolos, LHC's spokesman, about "
+        },
+        {
+            "img": "https://goo.gl/UwB95H",
+            "title": "Experts claims LHC is safe",
+            "date": "18 November 2008",
+            "description": "Again LHC spokesman Papadopolo Pasmanododos has to defend publicly LHC safety.",
+            "content": "For more than a year we have heard about the political issues regarding LHC arrangements. All those remarked obstacles related on economy and politics that were used, as claimed by some voices, to cover LHC's real danger which is their experiments and the chain reaction that might not be controllable. In this case mr. Paspopolos had to show results over safety experiments to calm things down, since -manifestacion- are to be celebrated by concerned civilians, the ony sanity in this situation."
+        },
+        {
+            "img": "https://goo.gl/GLL8iP",
+            "title": "Riots over LHC safety",
+            "date": "20 February 2009",
+            "description": "Geneva under siege. Some folks with common sense are trying to stop LHC's madness.",
+            "content": "For more than a year we have heard about the political issues regarding LHC arrangements. All those remarked obstacles related on economy and politics that were used, as claimed by some voices, to cover LHC's real danger which is their experiments and the chain reaction that might not be controllable. Many people will call them insane, but YOU KNOW NOTHING! THAT SHITS IS DANGEROUS, WE ARE ABOUT TO DIE."
+        },
+        {
+            "img": "https://goo.gl/MUbSBx",
+            "title": "Gran Sasso and LHC: All was due to a wiring mistake",
+            "date": "14 May 2009",
+            "description": "Pasparepolos pomodopoulos again on stage",
+            "content": "For more than a year we have heard about the political issues regarding LHC arrangements. All those remarked obstacles related on economy and politics that were used, as claimed by some voices, to cover LHC's real danger which is their experiments and the chain reaction that might not be controllable. In this case the problem it's not LHC safety, an issue that frankly concerns this reporter, but the shame of one of the biggest mistakes on recent physics history. Contrary to what many of you write on this blog, I'M NOT MAD JUST COMMON SENSE!!"
+        },
+        {
+            "img": "https://goo.gl/GujQGm",
+            "title": "Unstabilities on experiments",
+            "date": "20 June 2099",
+            "description": "Mereppolimos popopopopulus is trying, again, to explain unexplainable.",
+            "content": "Some earthquakes near Geneva that had been logically related to bleck hole LHC's experiments, has centerd focus against LHC again. As an objective reporter I can say something to you my little fellas: The end of the world is near because no god would want it's creation to create thing only reserved for himself. Of course Papadopolos has pointed that there is no relation between earthquakes and LHC's..."
+        },
+        {
+            "img": "https://goo.gl/m7obUE",
+            "title": "Higgs Boson is discovered thanks to LHC",
+            "date": "08 October 2013",
+            "description": "Greek LHC spokesman announces one big discovery.",
+            "content": "I might not be an expert but it's pretty obvious that this is all fake. An intention to distract people from what really matters here: THEY ARE FUCKING UP THE WORLD LITTLE BY LITTLE!!"
+        },
+        {
+            "img": "https://goo.gl/P1KZjV",
+            "title": "More LHC earthqueakes",
+            "date": "20 November 2013",
+            "description": "UNNACEPTABLE!!",
+            "content": "One more earthquake! In this case near New York City. Of course mr Posmopulopilos Polululus is again saying there's no relation BUT THE WRATH OF GOD WILL BE LIMITLESS DUE TO THIS ****** ACTS. HOW LONG DO WE HAVE TO LET THEM **** THINGS UP??!!"
+        },
+        {
+            "img": "https://goo.gl/uZo67r",
+            "title": "EU: Silence over LHC clousure after unestabilities",
+            "date": "29 February 2013",
+            "description": "After last earthquake in Indonesia there have been no response from mr. Porupilapolos",
+            "content": "From this media an email was send to him in order to get some explanations, I WROTE THAT MYSELF!! AND THAT ****SUCKER DIDN'T EVEN ANSWER. He probably believes that he is more important than you my 300 followers, but we are attending a last meeting to accept the end og the world."
+        },
+        {
+            "img": "https://goo.gl/UwB95H",
+            "title": "The end of the world!",
+            "date": "33 May 2013",
+            "description": "I AM NOT CRAZY, EVERYTHING CAN NOT BE A COINCIDENCE",
+            "content": "..."
+        }
+    ],
+    "ads": [
+        {
+            "name": "DataEntry",
+            "img": "https://goo.gl/uTXUnE"
+        },
+        {
+            "name": "MockTests",
+            "img": "https://goo.gl/oFS5to"
+        },
+        {
+            "name": "Sustainable",
+            "img": "https://goo.gl/f8Yudb"
+        }
+    ] 
+}

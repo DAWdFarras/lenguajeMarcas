@@ -1,0 +1,25 @@
+{
+    "news": [
+    {
+        "img": "https://goo.gl/MUbSBx",
+        "title": "EU plan over new hadron collider (LHC)",
+        "date": "01 January 1999",
+        "description": "EU meeting over last year about the large hadron collider are showing benefits over arrangements. Some decisions are still to be made (where is te be builded, or how much will it cost to every country) but the decision is firm over its creation.",
+        "content": "EU meeting over last year about the large hadron collider are showing benefits over arrangements. Some decisions are still to be made (where is te be builded, or how much will it cost to every country) but the decision is firm over its creation. Although what has previously been said there some parties on resistance about the final budget distribution, one of those concerned countries is England which has been discarded to house the project for geographical reasons."
+    }, 
+    {
+        "img": "https://goo.gl/GujQGm",
+        "title": "LHC summit: Size and budget over LHC",
+        "date": "17 May 2001",
+        "description": "After several meetings, and temporal deadpoints, LHC summit last November created an arrangement between main EU members over LHC astronomous budget.",
+        "content": "As everyone already knows there have been several political obstacles over LHC budget arrangements. But all those deadpoint seems to be just stories about the past since biggest EU members have forced weak new members to pleasure their will aprobing the budget."
+    },
+    {
+        "img": "https://goo.gl/m7obUE",
+        "title": "Switzerland will house LHC's main installations",
+        "date": "07 October 2002",
+        "description": "Finally LHC's housing country has been revealed as Switzerland, which is unexpected at least.",
+        "content": "Moreover LHC house will be at Geneve, surpisingly since they're status has always been complicated compared to other options like Italy or Germany."
+    }
+]
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- General -->
+	<title>About Me</title>
+	<link rel="icon" href="https://goo.gl/xYqKLo" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="descripción" content="Latest news about science and LHC!" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name = "theme-color" content = "	#ffffff " />
+	<!-- RSS -->
+	<link rel="alternate" type="application/rss+xml" title="LHC latest news" href="./data/rss.xml">
+	<!-- Google robot -->
+	<meta name="google" content="LHC latest news" />
+	<meta name="google" content="notranslate" />
+	<link rel="canonical" href="https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/afb08ab6/home.html" />
+	<!-- Facebook -->
+	<meta property="og:site_name" content="LHC latest news" />
+	<meta property="og:url" content="https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/afb08ab6/home.html" />
+	<meta property="og:title" content="LHC latest news" />
+	<meta property="og:image" content="https://goo.gl/xYqKLo" />
+    <meta property="og:description" content="Latest news about science and LHC!" />
+
+    <link rel='stylesheet' media='screen and (min-width: 1px)' href='css/home.css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img class="img-responsive" src="https://goo.gl/xYqKLo" alt="Chania">
+            <div class="carousel-caption">
+              <h3>Science Club</h3>
+              <p>LA is always so much fun!</p>
+            </div>
+          </div>
+      
+          <div class="item">
+            <img class="img-responsive" src="https://goo.gl/Khiygo" alt="Chicago">
+            <div class="carousel-caption">
+              <h3>Data Science</h3>
+              <p>Thank you, Chicago!</p>
+            </div>
+          </div>
+
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+    <nav id="menu" class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">SCIENCE FOLKS</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="#">Home</a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Actions
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">Search</a>
+                        </li>
+                        <li>
+                            <a href="#">Friend web pages</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Auto Refresh</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div id="zupahContainer" class="container-fluid">
+
+
+        <div id="someMoreNews" class="container-fluid">
+            <div class="row secondaryNew">
+                <div class="col-sm-5">
+                    <img class="img-responsive img-circle" src="https://goo.gl/zfEMpE" />
+                </div>
+                <div class="col-sm-7">
+                    <div class="row">
+                        <h1>EU plan over new hadron collider</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 bg-light" id="newsText">EU meeting over last year about the large hadron collider are showing benefits over arrangements. Some decisions are still to be made (where is te be builded, or how much will it cost to every country) but the decision is firm over its creation.</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 bg-light" id="links">01 January 1999</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="loadMoreButton" class="container-fluid text-center">
+        <button id="loadButton" type="button" class="btn btn-primary">More news</button>
+    </div>
+<footer id="footer" class="page-footer font-small cyan darken-3 mt-4">
+    <div class="container">
+        <div id="footRow" class="row">
+            <div class="col-sm-3">
+                <i class="fab fa-aviato fa-5x"> </i>
+            </div>
+
+            <div class="col-sm-3">           
+                <i class="fab fa-hooli fa-5x"> </i>
+            </div>
+
+            <div class="col-sm-3">
+                <i class="fab fa-google-plus fa-5x"> </i>
+            </div>
+
+            <div class="col-sm-3">
+                <i class="fab fa-pied-piper-hat fa-5x"> </i>            
+            </div>
+        </div>
+    </div>
+</footer>
+
+                  
+</body>
+
+</html>
