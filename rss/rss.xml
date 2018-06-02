@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+ <title>Science Folks</title>
+ <link>https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/88fad203/home.html</link>
+ <description>A website for white republican normal free people!</description>
+ <item>
+  <title>AboutMe</title>
+  <link>https://cdn.rawgit.com/DAWdFarras/lenguajeMarcas/1315d7d4/aboutMe.html</link>
+  <description>Web creator description</description>
+ </item>
+</channel>
+</rss>
